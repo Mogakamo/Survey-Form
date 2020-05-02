@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Gome Survey</h1>
+   <div class="survey-form">
+       <div id="container">
+        <div id="form">
+            <form action="" method="get">
+                <div id="Survey-form">
+                <p><input type="text" id="firstname" placeholder="First Name" required /></p>
+                <p><input type="text" id="lastname " placeholder="Last Name" required /></p>    
+                <p>
+                    <input type="radio" name="Gender" value="Male" />Male
+                    <input type="radio" name="Gender" value="Female" />Female
+                    <input type="radio" name="Gender" value="Rather not say" />Rather not Say
+                </p><input type="text" name="Country" id="Your Country" placeholder="Please Enter Your Country"></p>
+                    <p><input type="number" name="Age" id="Age" placeholder="Your Age"/></p>
+                <p><b>Based on a rating of 1 to 10 please rate our services</b> <br />
+                    <input type="radio" name="Rate" value="1">1
+                    <input type="radio" name="Rate" value="2">2
+                    <input type="radio" name="Rate" value="3">3
+                    <input type="radio" name="Rate" value="4">4
+                    <input type="radio" name="Rate" value="5">5
+                    <input type="radio" name="Rate" value="6">6
+                    <input type="radio" name="Rate" value="7">7
+                    <input type="radio" name="Rate" value="8">8
+                    <input type="radio" name="Rate" value="9">9
+                    <input type="radio" name="Rate" value="10">10
+                </p>
+                <p><b>Where did you get to know about our company? <br>
+                </b>
+                <select name="options" id="Choose from below">
+                    <option value="">Please select from the below options</option>
+                <option value="IG">Instagam</option>
+                <option value="google">Google Ads</option>
+                <option value="friend">Friend</option>
+                <option value="twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+                </select>
+            </p>
+            <p><h5>Comments</h5>
+            <textarea name="Comments" id="Leave your comment or complain below" cols="60" rows="10" placeholder="Comment or leave a comment here"></textarea>
+            </p>
+                     <div class="button">
+                        <button type="reset" onclick="location.href='index.html'">Reset</button>    
+                        <button class="submit" onclick="">Submit</button>
+                     </div>  
+                </div>
+            </form>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
